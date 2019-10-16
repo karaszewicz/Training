@@ -1,3 +1,5 @@
+// Node RED function node to generate random points to be used in linear regression model training.
+// Author: V.Kaznovsky
 var slope_a = context.get('slope_a') || 1.5; 
 var intercept = context.get('intercept') || 0.5;
 var epsilon = context.get('epsilon') || 10;
