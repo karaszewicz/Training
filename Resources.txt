@@ -1,5 +1,6 @@
-#RESOURCES
+#GENERAL AI, ML, WATSON, DATA SCIENCE RESOURCES
 
+1. WATSON ASSISTANT
 Learning path: Getting started with Watson Assistant
 From Watson Assistant basics to creating your own apps
 https://developer.ibm.com/series/learning-path-watson-assistant/
@@ -57,3 +58,117 @@ http://www.marketwatch.ro/articol/15713/IMWorld_2017_anunta_primele_solutii_digi
 http://www.marketwatch.ro/articol/16638/Druid_se_parteneriaza_cu_IT_Assist_pentru_a_da_voce_chatbotilor_Druid/
 
 http://www.marketwatch.ro/articol/16659/Invazia_chatbotilor_in_Romania_si_impactul_lor_pe_fronturile_principale/
+
+
+
+2. Point of view: "There is no AI without IA" :
+https://www.ibm.com/blogs/think/2018/02/ibm-ai-ladder/
+https://www.slideshare.net/InfoDevWorld/theres-no-ai-without-ia-with-seth-earley-85017288
+https://www.earley.com/no-ai-without-ia
+https://info.earley.com/hubfs/EIS_Assets/ITPro-Reprint-No-AI-without-IA.pdf
+https://www.infoq.com/articles/artificial-intelligence
+https://www.linkedin.com/pulse/lessons-from-alexa-really-ai-without-ia-seth-earley
+
+
+3. European Commission related
+
+European Commission'sInitiatives in ArtificialIntelligence
+https://www.oecd.org/going-digital/ai-intelligent-machines-smart-policies/conference-agenda/ai-intelligent-machines-smart-policies-huet.pdf
+
+Member States and Commission to work together to boost artificial intelligence “made in Europe”
+http://europa.eu/rapid/press-release_IP-18-6689_en.htm
+
+Artificial intelligence: Commission outlines a European approach to boost investment and set ethical guidelines
+http://europa.eu/rapid/press-release_IP-18-3362_en.htm
+
+Member States and Commission to work together to boost artificial intelligence “made in Europe”
+https://ec.europa.eu/commission/news/artificial-intelligence-2018-dec-07_en
+
+AI strategy
+https://ec.europa.eu/growth/tools-databases/dem/monitor/tags/ai-strategy
+
+AI news 7 dec. 2018
+https://ec.europa.eu/commission/news/artificial-intelligence-2018-dec-07_en
+
+EC launches pan-European AI strategy for business
+http://www.iteuropa.com/news/ec-launches-pan-european-ai-strategy-business
+
+
+3. Space exploration - related resources
+https://newsroom.ibm.com/CIMON-Gets-Started-as-First-AI-Powered-Astronaut-Assistant
+
+IBM helped NASA FDL fix a satellite’s instrument using cutting-edge A.I.
+https://www.digitaltrends.com/cool-tech/ai-fix-satellite-nasa/?amp
+
+Tech support, but in space: A look at the tech which astronauts use on the ISS.
+https://www.zdnet.com/article/this-is-how-nasa-chooses-tech-for-the-international-space-station-and-why-ai-could-help-get-us-to/?ftag=TRE-03-10aaa6b&bhid=28010590156520660228256871097555
+
+Frontier news:
+
+http://scottbot.net/seeking-new-physics/
+
+
+
+4. AI/ML Test data sources
+
+Awesomedata
+https://github.com/awesomedata/awesome-public-datasets
+
+CMU Graphics Lab Motion Capture Database
+http://mocap.cs.cmu.edu/
+
+Retail data sets
+https://data.world/datasets/retail
+
+https://dreamtolearn.com/ryan/1001_datasets
+
+Prednet
+Code and models accompanying Deep Predictive Coding Networks for Video Prediction and Unsupervised Learning by Bill Lotter, Gabriel Kreiman, and David Cox.
+https://github.com/lanaelsanyoura/prednet/tree/predNetDLaaS
+
+UK data services
+https://www.ukdataservice.ac.uk/use-data/guides/thematic-guides
+
+UC Irvine Machine Learning Repository
+http://mlr.cs.umass.edu/ml/
+
+A.I. Wiki
+https://skymind.ai/wiki/open-datasets
+
+http://dataportals.org/
+
+Punctul central de acces pentru seturile de date deschise livrate de autoritățile și instituțiile administrației publice
+https://data.gov.ro
+
+Financial data
+https://www.quandl.com/
+
+5. Watson Knowledge Studio (WKS)
+https://developer.ibm.com/tv/use-watson-knowledge-studio-build-customized-machine-learning-model/
+https://developer.ibm.com/tv/teach-watson-to-understand-your-data-a-technical-introduction-to-watson-knowledge-studio/
+https://www.youtube.com/watch?v=EQcEk2TX79c
+https://cloud.ibm.com/docs/services/knowledge-studio?topic=knowledge-studio-wks_overview_full
+https://developer.ibm.com/answers/topics/wks/
+http://knowledge-studio-demo.ng.bluemix.net/
+https://www.youtube.com/playlist?list=PLZDyxLlNKRY9yM_Deg6GhTU1WS0-JLwyX
+https://www.youtube.com/watch?v=EQcEk2TX79c
+https://www.ibm.com/demos/
+https://developer.ibm.com/patterns/analyze-sms-messages-with-watson-knowledge-studio/
+https://www.youtube.com/watch?v=lwW97UQj0RM
+https://github.com/IBM/sms-analysis-with-wks
+
+https://console.bluemix.net/developer/watson/documentation
+https://console.bluemix.net/docs/services/watson-knowledge-studio/tutorials-create-project.html#wks_tutintro
+https://console.bluemix.net/docs/services/watson-knowledge-studio/roles.html#notes
+https://console.bluemix.net/docs/services/knowledge-studio/annotate-documents.html#wks_guidelines__annotguide1
+https://www.youtube.com/watch?time_continue=282&v=EQcEk2TX79c
+https://console.bluemix.net/catalog/services/knowledge-studio
+https://developer.ibm.com/code/technologies/artificial-intelligence/
+https://console.bluemix.net/developer/watson/learning-resources
+
+http://www.redbooks.ibm.com/?lnk=ushpv18hcwh3
+http://www.redbooks.ibm.com/redbooks.nsf/redbookabstracts/crse0400.html?Open
+
+Natural Language for Developers
+wit.ai
+
