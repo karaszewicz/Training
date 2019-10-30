@@ -27,11 +27,14 @@ CoRoLa – Program Prioritar al Academiei Române
 corpus computațional de referință pentru limba română contemporană
 http://www.racai.ro/research-activities/corola-program-prioritar-al-academiei-romane/
 
-BUILDINGA PHONETICALLY BALANCED ROMANIAN SPEECH CORPUS
+BUILDING A PHONETICALLY BALANCED ROMANIAN SPEECH CORPUS
 http://speed.pub.ro/speed3/wp-content/uploads/2013/02/2012_EUSIPCO1_v11.pdf
 
 RODIGITS -A ROMANIAN CONNECTED-DIGITS SPEECH CORPUS FOR AUTOMATICSPEECH AND SPEAKER RECOGNITION
 https://scientificbulletin.upb.ro/rev_docs_arhiva/rezab7_316868.pdf
+
+Institute for Research in the Humanities. A research division of The Research Institute of the University of Bucharest (ICUB).
+https://irhunibuc.wordpress.com/2018/10/09/digital-humanities-2018-2019/
 
 Romanian text-to-speech systems
 http://romaniantts.com/
@@ -51,6 +54,3 @@ http://www.marketwatch.ro/articol/15713/IMWorld_2017_anunta_primele_solutii_digi
 http://www.marketwatch.ro/articol/16638/Druid_se_parteneriaza_cu_IT_Assist_pentru_a_da_voce_chatbotilor_Druid/
 
 http://www.marketwatch.ro/articol/16659/Invazia_chatbotilor_in_Romania_si_impactul_lor_pe_fronturile_principale/
-
-Institute for Research in the Humanities. A research division of The Research Institute of the University of Bucharest (ICUB).
-https://irhunibuc.wordpress.com/2018/10/09/digital-humanities-2018-2019/
