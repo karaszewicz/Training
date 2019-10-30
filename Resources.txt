@@ -1,0 +1,56 @@
+RESOURCES
+
+Learning path: Getting started with Watson Assistant
+From Watson Assistant basics to creating your own apps
+https://developer.ibm.com/series/learning-path-watson-assistant/
+
+Create a banking chatbot
+Use Node.js and Watson to detect emotion, identify entities, and discover answers
+https://developer.ibm.com/depmodels/cloud/patterns/create-cognitive-banking-chatbot
+
+Create domain-specific bots using an agent bot
+https://developer.ibm.com/depmodels/cloud/patterns/compose-bots-using-an-agent-bot
+
+Train a speech-to-text model
+https://developer.ibm.com/depmodels/cloud/patterns/customize-and-continuously-train-your-own-watson-speech-service
+
+Blog Post: Building chatbots: Be patient and grow your assistant
+What's on the outlook for chatbots? And what challenges do you face as developer when building one?
+https://developer.ibm.com/blogs/building-chatbots-be-patient-and-grow-your-assistant/
+
+Create a Custom Watson Speech-to-Text Model for Medical Dictation
+https://www.youtube.com/watch?v=bBLu1Ap8c7c
+
+Variuos, lingvistic sources:
+
+CoRoLa – Program Prioritar al Academiei Române
+corpus computațional de referință pentru limba română contemporană
+http://www.racai.ro/research-activities/corola-program-prioritar-al-academiei-romane/
+
+BUILDINGA PHONETICALLY BALANCED ROMANIAN SPEECH CORPUS
+http://speed.pub.ro/speed3/wp-content/uploads/2013/02/2012_EUSIPCO1_v11.pdf
+
+RODIGITS -A ROMANIAN CONNECTED-DIGITS SPEECH CORPUS FOR AUTOMATICSPEECH AND SPEAKER RECOGNITION
+https://scientificbulletin.upb.ro/rev_docs_arhiva/rezab7_316868.pdf
+
+Romanian text-to-speech systems
+http://romaniantts.com/
+
+BRAIN: A speech to text transcription approach based on Romanian corpus
+http://academia.edusoft.ro/2017/09/23/brain-a-speech-to-text-transcription-approach-based-on-romanian-corpus/
+
+Press articles:
+http://www.marketwatch.ro/articol/16659/Invazia_chatbotilor_in_Romania_si_impactul_lor_pe_fronturile_principale/pagina/2
+
+http://www.marketwatch.ro/articol/16591/Au_fost_creati_chatbotii_dupa_chipul_si_asemanarea_omului/
+
+http://www.marketwatch.ro/articol/16580/TotalSoft_asistentii_personali_virtuali_(chatbotii)_-_noul_trend_pe_piata_solutiilor_de_HR/
+
+http://www.marketwatch.ro/articol/15713/IMWorld_2017_anunta_primele_solutii_digitale_IoT_chatboti_cu_AI_softuri_pentru_IMM_si_tehnologii_in_premiera_big_brotherul_utilajelor_de_productie/
+
+http://www.marketwatch.ro/articol/16638/Druid_se_parteneriaza_cu_IT_Assist_pentru_a_da_voce_chatbotilor_Druid/
+
+http://www.marketwatch.ro/articol/16659/Invazia_chatbotilor_in_Romania_si_impactul_lor_pe_fronturile_principale/
+
+Institute for Research in the Humanities. A research division of The Research Institute of the University of Bucharest (ICUB).
+https://irhunibuc.wordpress.com/2018/10/09/digital-humanities-2018-2019/
