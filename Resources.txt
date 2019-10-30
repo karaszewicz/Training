@@ -1,4 +1,4 @@
-RESOURCES
+#RESOURCES
 
 Learning path: Getting started with Watson Assistant
 From Watson Assistant basics to creating your own apps
@@ -21,7 +21,7 @@ https://developer.ibm.com/blogs/building-chatbots-be-patient-and-grow-your-assis
 Create a Custom Watson Speech-to-Text Model for Medical Dictation
 https://www.youtube.com/watch?v=bBLu1Ap8c7c
 
-Variuos, lingvistic sources:
+#Variuos, lingvistic sources
 
 CoRoLa – Program Prioritar al Academiei Române
 corpus computațional de referință pentru limba română contemporană
@@ -42,7 +42,7 @@ http://romaniantts.com/
 BRAIN: A speech to text transcription approach based on Romanian corpus
 http://academia.edusoft.ro/2017/09/23/brain-a-speech-to-text-transcription-approach-based-on-romanian-corpus/
 
-Press articles:
+#Press articles
 http://www.marketwatch.ro/articol/16659/Invazia_chatbotilor_in_Romania_si_impactul_lor_pe_fronturile_principale/pagina/2
 
 http://www.marketwatch.ro/articol/16591/Au_fost_creati_chatbotii_dupa_chipul_si_asemanarea_omului/
