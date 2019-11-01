@@ -1,0 +1,144 @@
+{
+    "name": "Restaurant advisor",
+    "intents": [
+      {
+        "intent": "tellmeabout",
+        "examples": [
+          {
+            "text": "Can you tell me"
+          },
+          {
+            "text": "I am interested in"
+          },
+          {
+            "text": "I am looking for"
+          },
+          {
+            "text": "I would like to know"
+          },
+          {
+            "text": "Tell me about"
+          }
+        ],
+        "description": "user wants to get some information"
+      }
+    ],
+    "entities": [
+      {
+        "entity": "food",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "eating",
+            "synonyms": [
+              "dining",
+              "dinner",
+              "lunch",
+              "breakfast"
+            ]
+          },
+          {
+            "type": "patterns",
+            "value": "Pizzeria",
+            "patterns": [
+              "pizz"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Restaurant",
+            "synonyms": [
+              "tavern"
+            ]
+          }
+        ],
+        "fuzzy_match": true
+      }
+    ],
+    "language": "en",
+    "metadata": {
+      "api_version": {
+        "major_version": "v1",
+        "minor_version": "2018-09-20"
+      }
+    },
+    "skill_id": "f8cd199e-e73a-4daa-a1ff-c98c8162d70b",
+    "dialog_nodes": [
+      {
+        "type": "standard",
+        "title": "Tell me about food",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I recommend one of these restaurants: \"Caru cu Bere\", \"Gambrinus\", \"Pescarul\"."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "conditions": "#tellmeabout && @food",
+        "dialog_node": "node_1_1571686802339",
+        "previous_sibling": "Welcome"
+      },
+      {
+        "type": "standard",
+        "title": "Anything else",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I didn’t understand. You can ask me about places to eat in Bucharest."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "conditions": "anything_else",
+        "dialog_node": "Anything else",
+        "previous_sibling": "node_1_1571686802339"
+      },
+      {
+        "type": "standard",
+        "title": "Welcome",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hello, I am your virtual guide through Bucharest. You can ask me about interesting places in our beautiful city."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "conditions": "welcome",
+        "dialog_node": "Welcome"
+      }
+    ],
+    "workspace_id": "f8cd199e-e73a-4daa-a1ff-c98c8162d70b",
+    "counterexamples": [],
+    "system_settings": {
+      "tooling": {
+        "store_generic_responses": true
+      },
+      "disambiguation": {
+        "prompt": "Did you mean:",
+        "none_of_the_above_prompt": "None of the above"
+      },
+      "human_agent_assist": {
+        "prompt": "Did you mean:"
+      },
+      "spelling_auto_correct": true
+    },
+    "learning_opt_out": false,
+    "status": "Training"
+  }
