@@ -1,0 +1,8 @@
+Max Mustermann just moved to Frankfurt, Germany, where he now lives.
+I want to travel from Berlin to Frankfurt by train. There I intend to do some sightseeing before my meeting.  After that I will fly to New York.
+We want to fly from New York JFK to Tokyo tomorrow.
+I just returned from a trip to Mexico, where I implemented a Cognitive Solution using Watson Conversation.
+Virginia Rometty works for IBM and is the CEO and Chairwoman of the International Business Machines.  In this role she has participated with Donald Trump and other technology CEOs in a White House technology planning session.  She stays in New York but she also travels a lot and has been seen to interact with Jeff Bezos, Tim Cook and other CEOs. At the 2016 World of Watson conference keynote she invited Ms. Barra, the CEO of GM.  She spoke of how Watson is being used with the OnStar technology in GM cars.
+Watson Natural Language Classifier by IBM is detecting intents in Natural Language
+IBM DB2 contains database server products developed by IBM. These products all support the relational model, but in recent years some products have been extended to support object-relational features and non-relational structures like JSON and XML.  Further, technologies in the noSQL database field seem to becoming very successful.
+The use of open source tools like Hadoop, Spark, Storm, Kafka, Node.js, R, and Python (there are many others) has gone past the tipping point.
