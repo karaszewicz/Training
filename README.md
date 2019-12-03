@@ -17,3 +17,11 @@ Introduction to IBM Cloud and Watson Knowledge Studio 2 of 2
 
 # Training 5:
 Introduction to IBM Cloud and Watson Discovery
+
+# Training WA101:
+L1 - Build a Chatbot
+L2 - Adding Rich Content
+L3 - Implement your Bot
+L4 - Enhancing your Chatbot I
+L5 - Enhancing your Chatbot II
+L6 - Integration of WA, NLU, TA, LT into Node Red
