@@ -1,0 +1,546 @@
+{
+  "intents": [
+    {
+      "intent": "newphone",
+      "examples": [
+        {
+          "text": "I'm looking for a new phone"
+        },
+        {
+          "text": "What's the best phone available"
+        },
+        {
+          "text": "Can you recommend a phone"
+        },
+        {
+          "text": "I'd like to replace my phone"
+        },
+        {
+          "text": "I need a new phone"
+        },
+        {
+          "text": "I am interested in buying a new phone"
+        },
+        {
+          "text": "I want advice regarding phones"
+        }
+      ],
+      "description": "Expressing intent to buy or get advice about buying a new phone"
+    },
+    {
+      "intent": "positive",
+      "examples": [
+        {
+          "text": "I love Apple"
+        },
+        {
+          "text": "I like Galaxy phones"
+        },
+        {
+          "text": "I prefer Google"
+        },
+        {
+          "text": "I need good battery life"
+        },
+        {
+          "text": "I want a good looking phone"
+        },
+        {
+          "text": "I want a great battery"
+        },
+        {
+          "text": "The new Samsung looks great"
+        },
+        {
+          "text": "I care about looks"
+        },
+        {
+          "text": "Style is important to me"
+        }
+      ],
+      "description": "Expressing positive opinion about mobile phones"
+    },
+    {
+      "intent": "negative",
+      "examples": [
+        {
+          "text": "I'm not bothered about battery life"
+        },
+        {
+          "text": "I do not like iPhones"
+        },
+        {
+          "text": "I don't care about style"
+        },
+        {
+          "text": "I hate Samsung"
+        },
+        {
+          "text": "Google sucks"
+        },
+        {
+          "text": "Apple is the worst"
+        },
+        {
+          "text": "Not concerned with looks"
+        }
+      ],
+      "description": "Expressing negative opinion about mobile phones"
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hello"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "attribute",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "style",
+          "synonyms": [
+            "looks",
+            "stylish",
+            "fashion"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "battery",
+          "synonyms": [
+            "battery life"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "brand",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Apple",
+          "synonyms": [
+            "iphone"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Google",
+          "synonyms": [
+            "pixel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Samsung",
+          "synonyms": [
+            "Galaxy",
+            "J3",
+            "A8",
+            "Edge"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Beauty is in the eye of the beholder... but the Huawei P20 Pro looks very cool."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1588599084089",
+      "conditions": "@attribute:style",
+      "dialog_node": "response_6_1588599141796",
+      "previous_sibling": "response_1_1588599114193"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you need a long battery life then go retro! There's an updated Nokia 3310 out now."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1588599084089",
+      "conditions": "@attribute:battery",
+      "dialog_node": "response_1_1588599114193"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1588599881238",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1588599881273",
+      "previous_sibling": "handler_9_1588599881273"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_7_1588599881238",
+      "event_name": "input",
+      "dialog_node": "handler_9_1588599881273"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "A Google fan, huh? I'd probably go for the Pixel 3."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1588592520723",
+      "conditions": "@brand:Google",
+      "dialog_node": "response_1_1588592820999",
+      "previous_sibling": "response_3_1588592777443"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you like Apple you could get the iPhone XR. It's pretty cool."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1588592520723",
+      "conditions": "@brand:Apple",
+      "dialog_node": "response_3_1588592777443",
+      "previous_sibling": "slot_7_1588599881238"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "If you like Samsung I'd recommend a new Galaxy S9."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1588592520723",
+      "conditions": "@brand:Samsung",
+      "dialog_node": "response_5_1588592848291",
+      "previous_sibling": "response_1_1588592820999"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1588592520723",
+      "dialog_node": "slot_7_1588599881238"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "If you want to steer away from Samsung but stay with Android then you could try a Google Pixel 3, or for a change you could go for a new iPhone XR."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1588593547006",
+      "conditions": "@brand:Samsung",
+      "dialog_node": "response_8_1588593780515",
+      "previous_sibling": "response_9_1588593757909"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "If you don't like Google but want to stay with Android, try a Samsung Galaxy S9, or if you fancy a change, maybe a new iPhone XR?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1588593547006",
+      "conditions": "@brand:Google",
+      "dialog_node": "response_9_1588593757909",
+      "previous_sibling": "response_5_1588593611984"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you don't like Apple you could go for an Android phone, maybe a Samsung Galaxy S9 or Google Pixel 3."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1588593547006",
+      "conditions": "@brand:Apple",
+      "dialog_node": "response_5_1588593611984"
+    },
+    {
+      "type": "standard",
+      "title": "Ask User Preference",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What's your current phone like? Does it have features you like or dislike?"
+              },
+              {
+                "text": "Tell something good or bad about your current phone, or what particular attributes you like in a phone."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1588592287173",
+      "conditions": "true",
+      "dialog_node": "node_1_1588592405916"
+    },
+    {
+      "type": "standard",
+      "title": "Not Sure",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm not sure I understand."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1588592405916",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1588592405916"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_9_1588599267150",
+      "previous_sibling": "node_4_1588599084089"
+    },
+    {
+      "type": "standard",
+      "title": "Brand negative",
+      "parent": "node_1_1588592405916",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1588591955730"
+      },
+      "conditions": "@brand && #negative",
+      "dialog_node": "node_3_1588593547006",
+      "previous_sibling": "node_3_1588592520723"
+    },
+    {
+      "type": "standard",
+      "title": "Attribute Positive",
+      "parent": "node_1_1588592405916",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1588591955730"
+      },
+      "conditions": "@attribute && #positive",
+      "dialog_node": "node_4_1588599084089",
+      "previous_sibling": "node_3_1588593547006"
+    },
+    {
+      "type": "frame",
+      "title": "Brand Positive",
+      "parent": "node_1_1588592405916",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1588591955730"
+      },
+      "conditions": "@brand && #positive",
+      "dialog_node": "node_3_1588592520723"
+    },
+    {
+      "type": "standard",
+      "title": "Help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1588591955730",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "New Phone",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I understand you want to choose a new phone."
+              },
+              {
+                "text": "So you'd like some help choosing a new phone."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#newphone",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1588592287173",
+      "previous_sibling": "node_2_1588591955730"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_6_1588592287173",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. I am a mobile phone advisor. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome || #greeting",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Phone Advisor",
+  "language": "en",
+  "description": ""
+}
